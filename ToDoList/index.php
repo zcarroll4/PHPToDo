@@ -1,11 +1,35 @@
 <?php
 require('../header.php');
+require '../database-info.php';
+require '../databaseFunctions.php';
+ if (isset($_GET['uncompleteAllTasks'])) {
+    $sql = makeAllTasksIncomplete();
+    $stmt = $pdo->prepare ($sql);
+    $stmt->execute ();
+  }
 ?>
 <div class="container">
+<!--<div class="row" style="display:none;" id="error-log-row">
+<div class="col-lg-2"></div>
+<div class="col-lg-8" margin:10px;">
+<h4 id="resultMessage" style="padding:15px;">
+<?php
+        session_start();
+        if (isset($_SESSION['ResultMessage'])){
+            echo '<script type="text/javascript">';
+            echo 'document.getElementById("error-log-row").style.display="block";';
+            echo '</script>';   
+	    echo $_SESSION['ResultMessage'];
+	    echo '</h4>';
+            exit ();
+        }
+?>
+</div>
+<div class="col-lg-2"></div>
+</div>  -->
 <div class="row">
     <?php 
-      include '../database-info.php';
-      include '../databaseFunctions.php';
+
 
     	$sql = selectToDoList();
         $result = $pdo->prepare ($sql);
@@ -34,6 +58,6 @@ require('../header.php');
 	</tr>
 </tbody>
 </table>
-
-
+<a href="index.php?uncompleteAllTasks=true" class="btn btn-primary btn-lg">Reset Tasks</a>
+</div>
 </div>
