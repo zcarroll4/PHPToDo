@@ -7,5 +7,5 @@ CREATE TABLE ToDoList (
   ToDoDescription varchar(255) NOT NULL,
   ToDoDueDate Date NOT NULL,
   ToDoCreateDate Date NOT NULL,
-  PRIMARY KEY(SubjectID)
+  PRIMARY KEY(ToDoID)
 );

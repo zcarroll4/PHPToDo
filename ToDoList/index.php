@@ -1,13 +1,13 @@
 <?php
-require('header.php');
+require('../header.php');
 ?>
 <div class="container">
 <div class="row">
     <?php 
-      include 'database-info.php';
-      include 'databaseFunctions.php';
+      include '../database-info.php';
+      include '../databaseFunctions.php';
 
-    	$sql = selectVisibleSubjects();
+    	$sql = selectToDoList();
         $result = $pdo->prepare ($sql);
         $result->execute();
 	?>
@@ -27,8 +27,8 @@ require('header.php');
 	    <td><?=$row['ToDoName'];?></td>
 	    <td><?=$row['ToDoDescription'];?></td>
 	    <td><?=$row['ToDoDueDate'];?></td>
-	    <td><?=$row['ToDoCreatedDate'];?></td>
-            <td><a href="completeToDoListItem.php?completeItem=<?=$row['ToDoID'];?>"><img src="complete_icon.png" width="27"/></a></td>
+	    <td><?=$row['ToDoCreateDate'];?></td>
+            <td><a href="completeToDoListItem.php?completeItem=<?=$row['ToDoID'];?>"><img src="../images/complete_icon.png" width="27"/></a></td>
         </tr>
 		<?php endforeach;?>
 	</tr>
