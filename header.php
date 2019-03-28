@@ -7,13 +7,49 @@
 <div class="container-fluid text-center p-4 dark">
 <div class="row bg-light">
 <div class="col-4">
-<a  href="../Dashboard" class="fas fa-home fa-5x" width="100"></a>
+<a  href="/php/PHPToDo/" class="fas fa-home fa-5x" width="100"></a>
 </div>
 <div class="col-4">
 <a href="" class="fab fa-php fa-5x"></a>
 </div>
 <div class="col-4">
-<a class="fas fa-cloud-download-alt fa-5x"></a>
+<h4 id="date"></h4>
 </div>
 </div>
+
+
+
+<script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+var weekDay = today.getDay();
+switch(weekDay) {
+  case 1:
+    weekDay = "Sunday";
+    break;
+  case 2:
+    weekDay = "Monday";
+    break;
+ case 3:
+    weekDay = "Tuesday";
+    break;
+ case 4:
+    weekDay = "Wednesday";
+    break;
+ case 5:
+    weekDay = "Thursday";
+    break;
+ case 6:
+    weekDay = "Friday";
+    break;
+ case 7:
+    weekDay = "Saturday";
+    break;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.getElementById('date').innerHTML = weekDay + "<br/>" + today;
+</script>
 </div>
