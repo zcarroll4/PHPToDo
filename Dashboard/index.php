@@ -12,7 +12,7 @@ require '../databaseFunctions.php';
 <div class="row">
 <div class="col-lg-8 text-primary text-center p-4">
 <div class="card text-white bg-primary mb-3">
-  <div class="card-header">Graduation</div>
+  <div class="card-header">Graduation 2019:</div>
   <div class="card-body">
     <h4 class="card-title">Countdown:</h4>
     <p class="card-text" id="grad"></p>
