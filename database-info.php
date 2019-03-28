@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 //Database Information
 $db_password = 'root';
 $db_user     = 'root';
-$db_name     = 'studycenterdatabase';
+$db_name     = 'todolistdatabase';
 try {
     $pdo = new PDO("mysql:host=localhost;dbname=$db_name", $db_user, $db_password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
