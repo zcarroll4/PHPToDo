@@ -11,7 +11,7 @@ require '../databaseFunctions.php';
 </div>
 <div class="row mt-3 text-center" style="font-size:28px;">
 <div class="col-12">
-<form class="form" method="POST">
+<form class="form" action="../Dashboard" method="POST">
 <div class="form-group">
 <label for="name">Username: </label>
 </div>

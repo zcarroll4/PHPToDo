@@ -24,7 +24,7 @@ require '../databaseFunctions.php';
 </div>
 </div>
 <div class="row mt-3">
-<div class="col text-center bg-primary p-5 m-3 rounded"><a class="text-white" href="AddNewItem"><h2>Add New Item</h2></a></div>
+<div class="col text-center bg-primary p-5 m-3 rounded"><a class="text-white" href="../AddNewItem"><h2>Add New Item</h2></a></div>
 <div class="col text-center bg-warning p-5 m-3 rounded"><a class="text-white"  href="../ToDoList"><h2>View All Items</h2></a></div>
 <div class="col text-center bg-info p-5 m-3 rounded"><a class="text-white"  href=""><h2>Share Items </h2></a></div>
 </div>

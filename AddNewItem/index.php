@@ -23,7 +23,7 @@ require '../databaseFunctions.php';
 <input type="date" name="DueDate" class="mb-2" />
 <input type="submit" value="Submit" class="btn btn-success btn-lg col-lg-12 mt-3"/>
 </form>
-<a href="" class="btn btn-primary btn-lg col-lg-12">Cancel</a>
+<a href="../Dashboard" class="btn btn-primary btn-lg col-lg-12">Cancel</a>
 </div>
 <div class="col-lg-3 text-center"></div>
 </div>
