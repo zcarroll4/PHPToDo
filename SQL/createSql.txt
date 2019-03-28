@@ -1,0 +1,11 @@
+CREATE DATABASE todolistdatabase;
+
+
+CREATE TABLE ToDoList (
+  ToDoID int NOT NULL AUTO_INCREMENT,
+  ToDoName varchar(255) NOT NULL,
+  ToDoDescription varchar(255) NOT NULL,
+  ToDoDueDate Date NOT NULL,
+  ToDoCreateDate Date NOT NULL,
+  PRIMARY KEY(SubjectID)
+);
