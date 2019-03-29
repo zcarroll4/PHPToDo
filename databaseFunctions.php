@@ -23,4 +23,14 @@ function makeAllTasksIncomplete(){
    $sqlQuery = "UPDATE todolist SET isComplete = 0";
    return $sqlQuery;
 }
+function makeAllTasksComplete(){
+   $sqlQuery = "UPDATE todolist SET isComplete = 1";
+   return $sqlQuery;
+}
+
+//Delete Queries
+function deleteTaskItem($item){
+    $sqlQuery = "DELETE FROM todolist WHERE ToDoId = '$item';";
+    return  $sqlQuery;
+}
 ?>

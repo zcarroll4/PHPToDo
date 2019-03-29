@@ -179,14 +179,14 @@ sup {
 }
 
 a {
-	color: #EB6864;
+	color: #EB6864;;
 	text-decoration: none;
 	background-color: transparent
 }
 
 a:hover {
 	color: #e22620;
-	text-decoration: underline
+  transform: scale(1.05, 1.05); //grows image size
 }
 
 a:not([href]):not([tabindex]) {
@@ -10899,4 +10899,12 @@ a.text-dark:focus {
 
 .pagination a:hover {
 	text-decoration: none
+}
+.grow-element {
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.grow-element:hover {
+    transform: scale(1.05, 1.05); //grows image size
 }

@@ -7,57 +7,58 @@ require '../databaseFunctions.php';
     $stmt = $pdo->prepare ($sql);
     $stmt->execute ();
   }
+if (isset($_GET['completeAllTasks'])) {
+    $sql = makeAllTasksComplete();
+    $stmt = $pdo->prepare ($sql);
+    $stmt->execute ();
+  }
+if (isset($_GET['deleteTaskItem'])) {
+    $item = $_GET['deleteTaskItem'];    
+    $sql = deleteTaskItem($item);
+    $stmt = $pdo->prepare ($sql);
+    $stmt->execute ();
+  }
 ?>
+<head>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+</head>
 <div class="container">
-<!--<div class="row" style="display:none;" id="error-log-row">
-<div class="col-lg-2"></div>
-<div class="col-lg-8" margin:10px;">
-<h4 id="resultMessage" style="padding:15px;">
-<?php
-        session_start();
-        if (isset($_SESSION['ResultMessage'])){
-            echo '<script type="text/javascript">';
-            echo 'document.getElementById("error-log-row").style.display="block";';
-            echo '</script>';   
-	    echo $_SESSION['ResultMessage'];
-	    echo '</h4>';
-            exit ();
-        }
-?>
-</div>
-<div class="col-lg-2"></div>
-</div>  -->
 <div class="row">
+    <a href="../Dashboard" class="fas fa-angle-left col fa-2x mb-3"> Return To Dashboard</a>
     <?php 
-
-
     	$sql = selectToDoList();
         $result = $pdo->prepare ($sql);
         $result->execute();
 	?>
-<table class="table table-bordered table-striped text-center">
-<thead class="">
-	<th>ID</th>
-	<th>Name</th>
-	<th>Description</th>
-	<th>Due Date</th>
-	<th>Created Date</th>
+<table class="table table-bordered table-striped text-center" id="myTable">
+<thead class="bg-primary">
+    <th>Edit</th>
+	<th class="sorting">ID</th>
+	<th class="sorting">Name</th>
+	<th class="sorting">Description</th>
+	<th class="sorting">Due Date</th>
+	<!--<th>Created Date</th>-->
 	<th>Complete</th>
+    <th>Delete</th>
 </thead>
 <tbody>
 	<?php  foreach($result as $row): ?>
         <tr style="background-color:white; text-align:center;">
-            <td><?=$row['ToDoID'];?></td>
+        <td><a class="far fa-edit fa-2x" href="index.php?editTaskItem=<?=$row['ToDoID'];?>"></a></td>
+        <td><?=$row['ToDoID'];?></td>
 	    <td><?=$row['ToDoName'];?></td>
 	    <td><?=$row['ToDoDescription'];?></td>
-	    <td><?=$row['ToDoDueDate'];?></td>
-	    <td><?=$row['ToDoCreateDate'];?></td>
-            <td><a href="completeToDoListItem.php?completeItem=<?=$row['ToDoID'];?>"><img src="../images/complete_icon.png" width="27"/></a></td>
+	    <td><?=$row['ToDoDueDate'];?></td>        
+	    <!--<td><?=$row['ToDoCreateDate'];?></td>-->
+        <td><a class="fas fa-check-square fa-2x" style="color:#25b345;" href="completeToDoListItem.php?completeItem=<?=$row['ToDoID'];?>"></a></td>
+        <td><a class="fa fa-trash fa-2x" href="index.php?deleteTaskItem=<?=$row['ToDoID'];?>"></a></td>
         </tr>
 		<?php endforeach;?>
 	</tr>
 </tbody>
 </table>
-<a href="index.php?uncompleteAllTasks=true" class="btn btn-primary btn-lg">Reset Tasks</a>
+<a href="index.php?uncompleteAllTasks=true" class="btn btn-primary btn-lg col m-5">Reset Tasks</a>
+<a href="index.php?completeAllTasks=true" class="btn btn-success btn-lg col m-5">Complete All Tasks</a>
 </div>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 </div>
