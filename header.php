@@ -10,7 +10,8 @@
 <a  href="/ToDo/PHPToDo/" class="fas fa-home fa-5x" width="100"></a>
 </div>
 <div class="col-4">
-<a href="#" class="fab fa-php fa-5x"></a>
+    <h2 class="col-12 mt-2">PHP To Do List</h2>    
+    <i class="fab fa-php fa-4x" style="color:#EB6864;" ></i>
 </div>
 <div class="col-4">
 <h4 id="date"></h4>

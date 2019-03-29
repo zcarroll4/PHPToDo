@@ -3,9 +3,9 @@ require('../header.php');
 require '../database-info.php';
 require '../databaseFunctions.php';
 ?>
-<div class="container mb-5">
+<div class="container mb-5 bg-light">
 <div class="row">
-<div class="col-lg-12 text-primary bg-dark  p-4">
+<div class="col-lg-12 text-primary text-center bg-dark  p-4">
 <h1>Dashboard</h1>
 </div>
 </div>
@@ -70,4 +70,6 @@ var x = setInterval(function() {
 
 
 </div>
-
+<?php
+    include ('../footer.php');
+?>
