@@ -3,13 +3,13 @@ require('../header.php');
 require '../database-info.php';
 require '../databaseFunctions.php';
 ?>
-<div class="container mb-5 bg-light">
+<div class="container mb-5 pb-3 bg-light">
 <div class="row">
 <div class="col-lg-12 text-primary text-center bg-dark  p-4">
 <h1>Dashboard</h1>
 </div>
 </div>
-<div class="row">
+<div class="row mt-3">
 <div class="col-lg-8 text-primary text-center p-4">
 <div class="card text-white bg-primary mb-3">
   <div class="card-header">Graduation 2019:</div>
