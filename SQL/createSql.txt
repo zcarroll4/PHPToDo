@@ -7,5 +7,6 @@ CREATE TABLE ToDoList (
   ToDoDescription varchar(255) NOT NULL,
   ToDoDueDate Date NOT NULL,
   ToDoCreateDate Date NOT NULL,
+  isComplete boolean NOT NULL,
   PRIMARY KEY(ToDoID)
 );

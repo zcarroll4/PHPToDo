@@ -1,8 +1,8 @@
 USE DATABASE todolistdatabase;
 
-INSERT INTO ToDoList(ToDoName, ToDoDescription, ToDoDueDate, ToDoCreateDate)
-VALUES ("Finish Study Center", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00"),
-("Finish Study Center2", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00"),
-("Finish Study Center3", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00"),
-("Finish Study Center4", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00");
+INSERT INTO ToDoList(ToDoName, ToDoDescription, ToDoDueDate, ToDoCreateDate,isComplete)
+VALUES ("Finish Study Center", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00",0),
+("Finish Study Center2", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00",0),
+("Finish Study Center3", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00",0),
+("Finish Study Center4", "Reset Email Functionality", "2019-02-03 13:00","2019-02-03 13:00",0);
 
