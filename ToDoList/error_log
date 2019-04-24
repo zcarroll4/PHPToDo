@@ -1,0 +1,5 @@
+[29-Mar-2019 04:51:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'todolistdatabase.todolist' doesn't exist in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/ToDoList/index.php:31
+Stack trace:
+#0 /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/ToDoList/index.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/ToDoList/index.php on line 31

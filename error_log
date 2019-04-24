@@ -1,0 +1,2 @@
+[29-Mar-2019 05:08:47 UTC] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/index.php on line 20
+[29-Mar-2019 05:08:47 UTC] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/index.php on line 20

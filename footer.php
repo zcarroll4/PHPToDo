@@ -1,6 +1,3 @@
-<?php
-
-?>
 <div class="container text-center p-4 dark">
 <div class="row bg-dark p-3">
     <div class="col-12">

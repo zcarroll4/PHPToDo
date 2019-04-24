@@ -9,6 +9,11 @@ require '../databaseFunctions.php';
 <h1>Dashboard</h1>
 </div>
 </div>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 fas fa-ad fa-5x p-3 text-center"></div>
+        <div class="col-lg-3"></div>
+    </div>
 <div class="row mt-3">
 <div class="col-lg-8 text-primary text-center p-4">
 <div class="card text-white bg-primary mb-3">
@@ -66,9 +71,6 @@ var x = setInterval(function() {
 
  }, 1000);
 </script>
-
-
-
 </div>
 <?php
     include ('../footer.php');

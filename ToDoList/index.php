@@ -18,18 +18,27 @@ if (isset($_GET['deleteTaskItem'])) {
     $stmt = $pdo->prepare ($sql);
     $stmt->execute ();
   }
+if(isset($_GET['editTaskItem'])){
+   $id = $_GET['editTaskItem'];
+   $sql = editTaskItem($id);
+   $stmt = $pdo->prepare ($sql);
+   $stmt->execute ();
+  }
 ?>
 <head>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 </head>
 <div class="container">
 <div class="row">
+<div class="col">
     <a href="../Dashboard" class="fas fa-angle-left col fa-2x mb-3"> Return To Dashboard</a>
     <?php 
     	$sql = selectToDoList();
         $result = $pdo->prepare ($sql);
         $result->execute();
-	?>
+	  ?>
+  </div>
+    <a href="#" onclick="addNewItem();" class="fa fa-plus fa-3x m-2"></a>
 <table class="table table-bordered table-striped text-center" id="myTable">
 <thead class="bg-primary">
     <th>Edit</th>
@@ -59,6 +68,22 @@ if (isset($_GET['deleteTaskItem'])) {
 </table>
 <a href="index.php?uncompleteAllTasks=true" class="btn btn-primary btn-lg col m-5">Reset Tasks</a>
 <a href="index.php?completeAllTasks=true" class="btn btn-success btn-lg col m-5">Complete All Tasks</a>
-</div>
+
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+<script>
+function editItem(){
+let params = `scrollbars=yes,resizable=no,status=no,location=no,toolbar=no,menubar=no,
+width=500,height=500,left=0,top=0`;
+
+open("/PHP-ToDo/ToDoList/editTask.php?id=<?echo $row['ToDoID']?>", 'test', params);
+}
+
+function addNewItem(){
+let params = `scrollbars=yes,resizable=yes,status=no,location=no,toolbar=no,menubar=no,
+width=500,height=650,left=0,top=0`;
+
+open('/PHP-ToDo/AddNewItem', 'test', params);
+}
+</script>
 </div>
