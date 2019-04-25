@@ -18,12 +18,12 @@ if (isset($_GET['deleteTaskItem'])) {
     $stmt = $pdo->prepare ($sql);
     $stmt->execute ();
   }
-if(isset($_GET['editTaskItem'])){
+/*if(isset($_GET['editTaskItem'])){
    $id = $_GET['editTaskItem'];
    $sql = editTaskItem($id);
    $stmt = $pdo->prepare ($sql);
    $stmt->execute ();
-  }
+  }*/
 ?>
 <head>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
@@ -38,7 +38,7 @@ if(isset($_GET['editTaskItem'])){
         $result->execute();
 	  ?>
   </div>
-    <a href="#" onclick="addNewItem();" class="fa fa-plus fa-3x m-2"></a>
+    <a href="#" onclick="addNewItem();" class="fa fa-plus fa-3x m-2 p-1"></a>
 <table class="table table-bordered table-striped text-center" id="myTable">
 <thead class="bg-primary">
     <th>Edit</th>
@@ -53,7 +53,7 @@ if(isset($_GET['editTaskItem'])){
 <tbody>
 	<?php  foreach($result as $row): ?>
         <tr style="background-color:white; text-align:center;">
-        <td><a class="far fa-edit fa-2x" href="index.php?editTaskItem=<?=$row['ToDoID'];?>"></a></td>
+        <td><a class="far fa-edit fa-2x" href="#" onclick="editItem()" ></a></td>
         <!--<td><?=$row['ToDoID'];?></td>-->
             <input type="hidden" value="<?=$row['ToDoID'];?>"/>
 	    <td><?=$row['ToDoName'];?></td>
@@ -77,14 +77,14 @@ function editItem(){
 let params = `scrollbars=yes,resizable=no,status=no,location=no,toolbar=no,menubar=no,
 width=500,height=500,left=0,top=0`;
 
-open("/PHP-ToDo/ToDoList/editTask.php?id=<?echo $row['ToDoID']?>", 'test', params);
+open("/PHPToDo/ToDoList/editTask.php?id=<?=$row['ToDoID'];?>", 'test', params);
 }
 
 function addNewItem(){
 let params = `scrollbars=yes,resizable=yes,status=no,location=no,toolbar=no,menubar=no,
 width=500,height=650,left=0,top=0`;
 
-open('/PHP-ToDo/AddNewItem', 'test', params);
+open('/PHPToDo/AddNewItem', 'test', params);
 }
 </script>
 </div>

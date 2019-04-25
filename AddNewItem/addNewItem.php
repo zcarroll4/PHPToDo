@@ -2,9 +2,6 @@
 require '../database-info.php';
 require '../databaseFunctions.php';
 
-
-
-
 $name = $_POST['name'];
 $description = $_POST['description'];
 $dueDate = $_POST['duedate'] . " " . date("H:i:s");

@@ -7,7 +7,7 @@ function selectToDoList(){
 }
 
 function selectToDoListItem($id){
-   $sqlQuery = "SELECT * FROM todolist WHERE ToListID = $id;";
+   $sqlQuery = "SELECT * FROM todolist WHERE ToDoID = $id;";
    return $sqlQuery;
 }
 

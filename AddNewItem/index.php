@@ -1,7 +1,7 @@
 <?php
-require('../header.php');
-require '../database-info.php';
-require '../databaseFunctions.php';
+require ('../header.php');
+require ('../database-info.php');
+require ('../databaseFunctions.php');
 ?>
 <div class="container mb-5">
     <div class="row bg-primary text-white">
@@ -16,8 +16,7 @@ require '../databaseFunctions.php';
                 session_start();
                 if(isset($_SESSION['ResultMessage1'])){
                     echo $_SESSION['ResultMessage1'];
-                    exit();
-                }
+                 }
             ?>
         </div>
 <form class="text-center" style="font-size:18px;" action="addNewItem.php" method="POST">
@@ -42,6 +41,16 @@ require '../databaseFunctions.php';
 
 </div>
 </div>
+<script>
+document.location.reload(true)(){
+            //Clear Sessions (Error Messages) on Page Reload
+            <?php
+            session_start();
+            session_unset();
+            session_destroy();
+            ?>      
+            }
+</script>
 <?php
     include ('../footer.php');
 ?>
