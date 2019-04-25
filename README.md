@@ -1,10 +1,10 @@
 # PHPToDo
 ### What I learned - 
--Designing an CRUD application (Create, Read, Update & Delete)
--Connecting an application with data from a SQL database
--Create Database PHP functions in order to retrive, update and delete data
--Javascript functions included Date time ticker, Countdown to Graduation, Popup window function
--Encrypt data to prevent PHP SQL injection
+- Designing an CRUD application (Create, Read, Update & Delete)
+- Connecting an application with data from a SQL database
+- Create Database PHP functions in order to retrive, update and delete data
+- Javascript functions included Date time ticker, Countdown to Graduation, Popup window function
+- Encrypt data to prevent PHP SQL injection
 
   ### User Interface Images 
  ![UI-02](https://github.com/zcarroll4/PHPToDo/blob/master/images/UI/Dashboard.jpg)
