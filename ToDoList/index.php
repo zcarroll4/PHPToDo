@@ -61,7 +61,7 @@ if (isset($_GET['deleteTaskItem'])) {
 	    <td><?=$row['ToDoDueDate'];?></td>        
 	    <!--<td><?=$row['ToDoCreateDate'];?></td>-->
         <td><a class="fas fa-check-square fa-2x" style="color:#25b345;" href="completeToDoListItem.php?completeItem=<?=$row['ToDoID'];?>"></a></td>
-        <td><a class="fa fa-trash fa-2x" href="index.php?deleteTaskItem=<?=$row['ToDoID'];?>"></a></td>
+        <td><a class="fa fa-trash fa-2x" href="index.php?deleteTaskItem=<?=$row['ToDoID'];?>" onclick="return confirm('Are you sure you want to delete this item?');"></a></td>
         </tr>
 		<?php endforeach;?>
 	</tr>
