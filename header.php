@@ -10,7 +10,7 @@
 <div class="container-fluid text-center p-4 dark">
 <div class="row bg-light">
 <div class="col-4">
-<a  href="/PHP-ToDo/Dashboard" class="fas fa-home fa-5x" width="100"></a>
+<a  href="/PHPToDo/Dashboard" class="fas fa-home fa-5x" width="100"></a>
 </div>
 <div class="col-4">
     <h2 class="col-12 mt-2">PHP To Do List</h2>    
