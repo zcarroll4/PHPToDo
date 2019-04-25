@@ -12,10 +12,17 @@ require '../databaseFunctions.php';
     <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6 fas fa-ad fa-5x p-3 text-center"></div>
-        <div class="col-lg-3"></div>
+        <div class="col-lg-3 text-right text-primary p-4">
+          <a href="../Signout" class="btn btn-success"><h2>Sign Out</h2></a>
+      </div>
     </div>
+    <div class="row mt-3">
+<div class="col text-center bg-primary p-5 m-3 rounded grow-element"><a class="text-white" href="../AddNewItem"><h2>Add New Item</h2></a></div>
+<div class="col text-center bg-warning p-5 m-3 rounded grow-element"><a class="text-white"  href="../ToDoList"><h2>View All Items</h2></a></div>
+<div class="col text-center bg-info p-5 m-3 rounded grow-element"><a class="text-white"  href=""><h2>Share Items </h2></a></div>
+</div>
 <div class="row mt-3">
-<div class="col-lg-8 text-primary text-center p-4">
+<div class="col text-primary text-center p-4">
 <div class="card text-white bg-primary mb-3">
   <div class="card-header">Graduation 2019:</div>
   <div class="card-body">
@@ -24,15 +31,8 @@ require '../databaseFunctions.php';
   </div>
 </div>
 </div>
-<div class="col-lg-4 text-right text-primary p-4">
-<a href="../Signout" class="btn btn-success"><h2>Sign Out</h2></a>
 </div>
-</div>
-<div class="row mt-3">
-<div class="col text-center bg-primary p-5 m-3 rounded grow-element"><a class="text-white" href="../AddNewItem"><h2>Add New Item</h2></a></div>
-<div class="col text-center bg-warning p-5 m-3 rounded grow-element"><a class="text-white"  href="../ToDoList"><h2>View All Items</h2></a></div>
-<div class="col text-center bg-info p-5 m-3 rounded grow-element"><a class="text-white"  href=""><h2>Share Items </h2></a></div>
-</div>
+
 
 <script>
 var countDownDate = new Date("May 11, 2019 00:01:00").getTime();

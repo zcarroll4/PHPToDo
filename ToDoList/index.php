@@ -42,7 +42,7 @@ if(isset($_GET['editTaskItem'])){
 <table class="table table-bordered table-striped text-center" id="myTable">
 <thead class="bg-primary">
     <th>Edit</th>
-	<th class="sorting">ID</th>
+	<!--<th class="sorting">ID</th>-->
 	<th class="sorting">Name</th>
 	<th class="sorting">Description</th>
 	<th class="sorting">Due Date</th>
@@ -54,7 +54,8 @@ if(isset($_GET['editTaskItem'])){
 	<?php  foreach($result as $row): ?>
         <tr style="background-color:white; text-align:center;">
         <td><a class="far fa-edit fa-2x" href="index.php?editTaskItem=<?=$row['ToDoID'];?>"></a></td>
-        <td><?=$row['ToDoID'];?></td>
+        <!--<td><?=$row['ToDoID'];?></td>-->
+            <input type="hidden" value="<?=$row['ToDoID'];?>"/>
 	    <td><?=$row['ToDoName'];?></td>
 	    <td><?=$row['ToDoDescription'];?></td>
 	    <td><?=$row['ToDoDueDate'];?></td>        
