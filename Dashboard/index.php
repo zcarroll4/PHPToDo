@@ -1,7 +1,7 @@
 <?php
-require('../header.php');
-require '../database-info.php';
-require '../databaseFunctions.php';
+require ('../header.php');
+require ('../database-info.php');
+require ('../databaseFunctions.php');
 ?>
 <div class="container mb-5 pb-3 bg-light">
 <div class="row">
