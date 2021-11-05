@@ -1,0 +1,172 @@
+[18-Dec-2020 12:51:44 America/New_York] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 8
+[18-Dec-2020 12:51:44 America/New_York] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 8
+[18-Dec-2020 12:51:44 America/New_York] PHP Notice:  Undefined variable: user in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 10
+[18-Dec-2020 12:51:44 America/New_York] PHP Notice:  Undefined variable: password in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 11
+[18-Dec-2020 12:53:29 America/New_York] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 8
+[18-Dec-2020 12:53:29 America/New_York] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 8
+[18-Dec-2020 12:53:29 America/New_York] PHP Notice:  Undefined variable: user in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 10
+[18-Dec-2020 12:53:29 America/New_York] PHP Notice:  Undefined variable: password in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 11
+[18-Dec-2020 12:55:50 America/New_York] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 8
+[18-Dec-2020 12:55:50 America/New_York] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 8
+[18-Dec-2020 12:55:50 America/New_York] PHP Notice:  Undefined variable: user in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 10
+[18-Dec-2020 12:55:50 America/New_York] PHP Notice:  Undefined variable: password in /home/z1ti59yycbai/projects.zachcarroll.me/todo/database-info.php on line 11
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 39
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 42
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 44
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 45
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 47
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 54
+[21-Dec-2020 16:01:05 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 55
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 34
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 35
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 37
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 40
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 43
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 46
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:02:13 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 51
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 34
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 35
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 37
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 40
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 43
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 46
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:02:18 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 51
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 34
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 35
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 37
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 40
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 43
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 46
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:02:44 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 51
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 34
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 35
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 37
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 40
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 43
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 46
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:03:23 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 51
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 34
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 35
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 37
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 40
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 43
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 46
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:03:24 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 51
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 34
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 35
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 37
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 40
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 43
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 46
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:03:33 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 51
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 34
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 35
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 37
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 38
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 40
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 41
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 43
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 46
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 50
+[21-Dec-2020 16:04:39 America/New_York] PHP Notice:  Undefined variable: hasEmail in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 51
+[04-Jan-2021 19:52:21 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:52:21 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:52:21 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:52:21 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:54:56 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:54:56 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:54:56 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:54:56 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:47 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:47 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 19:55:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:02:29 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:02:29 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:02:29 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:02:29 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:24:50 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:24:50 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:24:50 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:24:50 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 20:29:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 20:29:55 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 20:29:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 20:29:55 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:33:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:33:15 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:33:15 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 21:33:15 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 21:33:15 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[04-Jan-2021 21:33:15 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[04-Jan-2021 21:33:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:33:17 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:33:17 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 21:33:17 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 21:33:17 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[04-Jan-2021 21:33:17 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[04-Jan-2021 21:33:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:33:22 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:33:22 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 21:33:22 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 5
+[04-Jan-2021 21:33:22 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[04-Jan-2021 21:33:22 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[04-Jan-2021 21:36:55 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[04-Jan-2021 21:36:55 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[04-Jan-2021 21:37:01 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[04-Jan-2021 21:37:01 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:12 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:12 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:15 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:15 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:23 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:23 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:27 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:27 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:31 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[05-Jan-2021 16:12:31 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:06 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:06 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:10 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:10 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:44 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:44 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:47 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[06-Jan-2021 17:22:47 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[11-Jan-2021 06:23:25 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[11-Jan-2021 06:23:25 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[11-Jan-2021 08:03:09 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[11-Jan-2021 08:03:09 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[17-Jan-2021 14:13:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[17-Jan-2021 14:13:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[22-Jan-2021 19:16:04 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[22-Jan-2021 19:16:04 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[09-Feb-2021 23:08:35 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[09-Feb-2021 23:08:35 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[26-Feb-2021 10:36:38 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[26-Feb-2021 10:36:38 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10

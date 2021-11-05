@@ -1,0 +1,181 @@
+<head>
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css"/>-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://projects.zachcarroll.me/todo/css/bootstrap.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<title>PHPToDo - Dashboard</title>
+<link rel="shortcut icon" type="image/png" href="https://projects.zachcarroll.me/todo/images/fav.ico"/>
+
+</head>
+<div class="container-fluid text-center p-4 bg-dark">
+<div class="row bg-dark text-white">
+<div class="col-lg-4  col-sm-6">
+<a  href="https://projects.zachcarroll.me/todo/Dashboard/" class="fas fa-home fa-5x" width="100"></a>
+</div>
+<div class="col-lg-4 col-sm-6">
+    <h2 class="col-12 mt-2">PHP To Do List</h2>    
+    <i class="fab fa-php fa-4x" style="color:#EB6864;" ></i>
+</div>
+<div class="col-lg-4 col-sm-12 text-center">
+<h4 id="date"></h4>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-right text-center navbar-dark bg-primary text-white">
+  <div class="container text-center">
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar" >
+    <ul class="navbar-nav mx-auto navbar-right" style="font-size:1.6rem;">
+
+            <li class="nav-item" style="display: none;">
+        <a class="nav-link" style="display: none;" href="/todo/ToDoList/">View All Items</a>
+      </li>
+      <li class="nav-item" style="display: none;">
+        <a class="nav-link" style="display: none;" href="/todo/AddNewItem/">Add New Item</a>
+      </li>
+      <li class="nav-item" style="display: none;">
+        <a class="nav-link" style="display: none;" href="/todo/Signout/">Sign Out</a>
+      </li>
+       <li class="nav-item" style="display: block;">
+        <a class="nav-link" href="/todo/Welcome/">Welcome</a>
+      </li>
+        <li class="nav-item" style="display: block;">
+        <a class="nav-link" href="/todo/LogIn/">Sign In</a>
+      </li>
+       <li class="nav-item" style="display: block;">
+        <a class="nav-link" href="/todo/Register/">Register</a>
+      </li>
+     
+      <!--<li class="nav-item" style="display: none;">-->
+      <!--  <a class="nav-link" style="display: none;" href="/todo/Signout/">Sign Out</a>-->
+      <!--</li>-->
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+var x = setInterval(function() {
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+var weekDay = today.getDay();
+var time = today.toLocaleTimeString();
+
+switch(weekDay) {
+  case 0:
+    weekDay = "Sunday";
+    break;
+  case 1:
+    weekDay = "Monday";
+    break;
+ case 2:
+    weekDay = "Tuesday";
+    break;
+ case 3:
+    weekDay = "Wednesday";
+    break;
+ case 4:
+    weekDay = "Thursday";
+    break;
+ case 5:
+    weekDay = "Friday";
+    break;
+ case 6:
+    weekDay = "Saturday";
+    break;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.getElementById('date').innerHTML = weekDay + "<br/>" + today + "<br/>" + time;
+ }, 1000);
+</script>
+</div>
+
+<div class="container mb-5 bg-light" style="padding:1rem 6rem; border:0px;">
+<div class="row">
+<div class="col-lg-12 text-primary text-center bg-dark  p-4">
+<h1>Dashboard</h1>
+</div>
+</div> 
+<div class="row mt-3">
+    <div class="col text-center bg-primary p-5 m-3 rounded grow-element"><a class="text-white" href="../AddNewItem"><h2>Add New Item</h2></a></div>
+    <div class="col text-center bg-warning p-5 m-3 rounded grow-element"><a class="text-white"  href="../ToDoList"><h2>View All Items</h2></a></div>
+    <div class="col text-center bg-info p-5 m-3 rounded grow-element"><a class="text-white"  href=""><h2>Share Items </h2></a></div>
+</div>
+
+<!--<div class="row mt-3">-->
+<!--<div class="col text-primary text-center p-4">-->
+<!--<div class="card text-white bg-primary mb-3">-->
+<!--  <div class="card-header">Graduation 2019:</div>-->
+<!--  <div class="card-body">-->
+<!--    <h4 class="card-title">Countdown:</h4>-->
+<!--    <p class="card-text" id="grad"></p>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<script>
+var countDownDate = new Date("May 11, 2019 00:01:00").getTime();
+var countDownDate2 = new Date("March 1, 2019 09:00:00").getTime();
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    var date = new Date();
+    var z = date.toDateString();
+    var n = date.toLocaleTimeString();
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    var distance2 = countDownDate2 - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+    var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="grad"
+    document.getElementById("grad").innerHTML = days + " Days " + hours + " Hours "
+    + minutes + " Minutes " + seconds + " Seconds ";
+	
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("grad").innerHTML = "GRADUATION 2019 ?";
+    }
+
+ }, 1000);
+</script>
+</div>
+<nav class="navbar fixed- navbar-light bg-dark p-3 text-center" 
+style="
+    width: 100%;
+    bottom: 0;
+    position: fixed;">
+  <!--<a class="navbar-brand" href="#">Fixed bottom</a>-->
+    <div class="col-12">
+         <h3 style="color:white;">Developed By: <a class="ml-2" href="http://zachcarroll.me">Zach Carroll</a></h3> 
+    </div>
+
+</nav>
+
