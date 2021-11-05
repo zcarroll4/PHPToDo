@@ -16,6 +16,6 @@ try {
     echo "Error while updating data " . $e->getMessage() , "\n";
 }
 echo "Successfully updated item! <script>window.close();</script>";
-
+header('Location:/ToDoList');
 
 ?>
