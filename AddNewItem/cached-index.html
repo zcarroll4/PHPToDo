@@ -1,0 +1,152 @@
+<head>
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css"/>-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://projects.zachcarroll.me/todo/css/bootstrap.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<title>PHPToDo - Add New Item</title>
+<link rel="shortcut icon" type="image/png" href="https://projects.zachcarroll.me/todo/images/fav.ico"/>
+
+</head>
+<div class="container-fluid text-center p-4 bg-dark">
+<div class="row bg-dark text-white">
+<div class="col-lg-4  col-sm-6">
+<a  href="https://projects.zachcarroll.me/todo/Dashboard/" class="fas fa-home fa-5x" width="100"></a>
+</div>
+<div class="col-lg-4 col-sm-6">
+    <h2 class="col-12 mt-2">PHP To Do List</h2>    
+    <i class="fab fa-php fa-4x" style="color:#EB6864;" ></i>
+</div>
+<div class="col-lg-4 col-sm-12 text-center">
+<h4 id="date"></h4>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-right text-center navbar-dark bg-primary text-white">
+  <div class="container text-center">
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar" >
+    <ul class="navbar-nav mx-auto navbar-right" style="font-size:1.6rem;">
+
+            <li class="nav-item" style="display: block;">
+        <a class="nav-link" style="display: block;" href="/todo/ToDoList/">View All Items</a>
+      </li>
+      <li class="nav-item" style="display: block;">
+        <a class="nav-link" style="display: block;" href="/todo/AddNewItem/">Add New Item</a>
+      </li>
+      <li class="nav-item" style="display: block;">
+        <a class="nav-link" style="display: block;" href="/todo/Signout/">Sign Out</a>
+      </li>
+       <li class="nav-item" style="display: none;">
+        <a class="nav-link" href="/todo/Welcome/">Welcome</a>
+      </li>
+        <li class="nav-item" style="display: none;">
+        <a class="nav-link" href="/todo/LogIn/">Sign In</a>
+      </li>
+       <li class="nav-item" style="display: none;">
+        <a class="nav-link" href="/todo/Register/">Register</a>
+      </li>
+     
+      <!--<li class="nav-item" style="display: block;">-->
+      <!--  <a class="nav-link" style="display: block;" href="/todo/Signout/">Sign Out</a>-->
+      <!--</li>-->
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+var x = setInterval(function() {
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+var weekDay = today.getDay();
+var time = today.toLocaleTimeString();
+
+switch(weekDay) {
+  case 0:
+    weekDay = "Sunday";
+    break;
+  case 1:
+    weekDay = "Monday";
+    break;
+ case 2:
+    weekDay = "Tuesday";
+    break;
+ case 3:
+    weekDay = "Wednesday";
+    break;
+ case 4:
+    weekDay = "Thursday";
+    break;
+ case 5:
+    weekDay = "Friday";
+    break;
+ case 6:
+    weekDay = "Saturday";
+    break;
+}
+
+today = mm + '/' + dd + '/' + yyyy;
+document.getElementById('date').innerHTML = weekDay + "<br/>" + today + "<br/>" + time;
+ }, 1000);
+</script>
+</div>
+
+<div class="container mb-5 mt-3">
+    <div class="row bg-primary text-white">
+        
+    </div>
+<div class="row">
+<div class="col-lg-2 text-center"></div>
+<div class="col-lg-8 p-4">
+<h1>Add New Item</h1>
+    <div class="col-12 bg-primary">
+                    </div>
+<form class="text-center" style="font-size:18px;" action="addNewItem.php" method="POST">
+<div class="form-group">
+<label for="name">Name: </label>
+</div>
+<input type="hidden" name="Email" value="testUser@gmail.com"/>
+<input type="text" name="name" />
+<div class="form-group">
+<label for="description">Description: </label>
+</div>
+<textarea name="description" style="width:100%;" rows="3"></textarea>
+<div class="form-group">
+<label for="DueDate">Due Date: </label>
+</div>
+<input type="date" name="duedate" value="12-31-2021" class="mb-2" />
+<input type="submit" value="Submit" class="btn btn-success btn-lg col-lg-12 mt-3"/>
+</form>
+<a href="../Dashboard" class="btn btn-primary btn-lg col-lg-12">Cancel</a>
+</div>
+<div class="col-lg-2 text-center"></div>
+</div>
+
+</div>
+</div>
+
+<nav class="navbar fixed- navbar-light bg-dark p-3 text-center" 
+style="
+    width: 100%;
+    bottom: 0;
+    position: fixed;">
+  <!--<a class="navbar-brand" href="#">Fixed bottom</a>-->
+    <div class="col-12">
+         <h3 style="color:white;">Developed By: <a class="ml-2" href="http://zachcarroll.me">Zach Carroll</a></h3> 
+    </div>
+
+</nav>
+

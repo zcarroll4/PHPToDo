@@ -1,5 +1,301 @@
-[29-Mar-2019 04:45:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'todolistdatabase.todolist' doesn't exist in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/AddNewItem/addNewItem.php:22
+[29-Mar-2019 04:45:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'todolistdatabase.todolist' doesn't exist in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/AddNewItem/addNewItem.php:22
+Stack trace:
+#0 /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/AddNewItem/addNewItem.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/AddNewItem/addNewItem.php on line 22
+[18-Dec-2020 12:59:18 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 12:59:22 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 12:59:30 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 12:59:53 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 12:59:53 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 13:01:56 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 13:25:54 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 13:26:23 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[18-Dec-2020 13:57:55 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[19-Dec-2020 14:31:58 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[19-Dec-2020 16:19:02 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[19-Dec-2020 16:19:20 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[19-Dec-2020 17:21:36 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[19-Dec-2020 17:22:02 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 02:29:27 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 05:37:52 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 15:52:44 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 15:52:49 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 15:54:23 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 15:55:00 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:17:59 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:18:47 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:19:27 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:23:56 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:24:03 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:28:56 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:30:10 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:31:00 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:34:53 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[21-Dec-2020 16:35:03 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[22-Dec-2020 10:03:15 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[22-Dec-2020 23:06:21 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[22-Dec-2020 23:07:23 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[22-Dec-2020 23:07:38 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 10:38:02 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 10:38:07 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:03:03 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:03:08 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:04:00 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:04:06 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:04:16 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:05:45 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:06:13 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:06:19 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:10:37 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:12:08 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:12:41 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:12:46 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:13:29 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:13:41 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:14:03 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:14:05 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:14:41 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:14:43 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[23-Dec-2020 14:15:26 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 18:19:35 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 20:54:54 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 20:54:54 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:01:43 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:01:43 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:01:43 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:01:43 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:01:43 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:01:43 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:01:47 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:01:47 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:01:52 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php on line 9
+[04-Jan-2021 21:01:52 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php on line 9
+[04-Jan-2021 21:01:52 America/New_York] PHP Notice:  Trying to access array offset on value of type bool in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php on line 15
+[04-Jan-2021 21:01:52 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php:24
 Stack trace:
-#0 /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/AddNewItem/addNewItem.php(22): PDOStatement->execute()
+#0 /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php(24): PDOStatement->execute()
 #1 {main}
-  thrown in /home/yapyh88zn7ss/public_html/z/ToDo/PHPToDo/AddNewItem/addNewItem.php on line 22
+  thrown in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php on line 24
+[04-Jan-2021 21:02:12 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php on line 10
+[04-Jan-2021 21:02:12 America/New_York] PHP Notice:  Trying to access array offset on value of type bool in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php on line 16
+[04-Jan-2021 21:02:12 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php:25
+Stack trace:
+#0 /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/addNewItem.php on line 25
+[04-Jan-2021 21:03:07 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:03:07 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:06:13 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:06:13 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:06:13 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:06:13 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:06:13 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:06:13 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jan-2021 21:06:13 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:06:17 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:06:17 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:06:30 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:06:30 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:06:30 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:06:30 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:06:30 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:06:30 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jan-2021 21:06:30 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:06:33 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:06:33 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:06:54 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:06:54 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:06:54 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:06:54 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:06:54 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:06:54 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jan-2021 21:06:54 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:07:05 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:07:05 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:07:32 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:07:32 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:07:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:07:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:07:32 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:07:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jan-2021 21:07:32 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:08:28 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:08:28 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:08:32 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:08:32 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:08:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:08:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:08:32 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:08:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jan-2021 21:08:32 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:08:35 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:08:35 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:08:39 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:08:39 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:08:39 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:08:39 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 7
+[04-Jan-2021 21:08:39 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:08:39 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jan-2021 21:08:39 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:11:06 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:11:06 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:11:06 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:11:06 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jan-2021 21:11:14 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:12:20 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:20 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:20 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 16
+[04-Jan-2021 21:12:20 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 49
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 25
+[04-Jan-2021 21:12:44 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:12:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:47 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:47 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 25
+[04-Jan-2021 21:12:51 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:13:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:13:13 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:13:13 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 8
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 25
+[04-Jan-2021 21:13:15 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:14:20 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:14:20 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:14:20 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:14:20 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:14:20 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 25
+[04-Jan-2021 21:14:22 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:15:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:15:13 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:15:13 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:15:13 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:15:13 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:16:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:16:13 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:16:13 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:16:13 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:16:13 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 25
+[04-Jan-2021 21:16:45 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:16:49 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:16:49 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:16:49 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:16:49 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:16:49 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:17:24 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:17:24 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:17:24 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:17:24 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 4
+[04-Jan-2021 21:17:24 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:18:07 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:18:07 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:18:07 America/New_York] PHP Notice:  Undefined variable: SignIn in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:18:07 America/New_York] PHP Notice:  Undefined variable: Register in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 3
+[04-Jan-2021 21:18:07 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:19:06 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:19:06 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:19:06 America/New_York] PHP Notice:  session_start(): A session had already been started - ignoring in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 48
+[04-Jan-2021 21:19:29 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:19:29 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:31:49 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:31:49 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:17 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:23 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:23 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:27 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:27 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:59 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[04-Jan-2021 21:32:59 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 2
+[11-Jan-2021 08:02:06 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[11-Jan-2021 08:02:06 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[11-Jan-2021 08:02:06 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[09-Feb-2021 23:08:12 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[09-Feb-2021 23:08:12 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 9
+[09-Feb-2021 23:08:12 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[26-Feb-2021 10:36:40 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[26-Feb-2021 10:36:40 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/header.php on line 10
+[26-Feb-2021 10:36:40 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[27-Apr-2021 03:16:16 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[30-Apr-2021 23:10:16 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[09-May-2021 02:24:18 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[11-May-2021 17:08:42 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[14-May-2021 02:49:22 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[21-May-2021 16:26:16 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[23-May-2021 19:21:54 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[06-Jun-2021 19:16:44 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[19-Jun-2021 10:30:13 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[25-Jun-2021 20:34:24 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[29-Jun-2021 11:26:55 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[03-Jul-2021 17:46:19 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Jul-2021 14:56:58 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[19-Jul-2021 01:28:21 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[20-Jul-2021 06:08:40 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[21-Jul-2021 09:25:47 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[03-Aug-2021 04:11:45 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[03-Aug-2021 13:40:02 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[08-Aug-2021 22:41:53 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[14-Aug-2021 23:34:55 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[17-Aug-2021 22:59:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[18-Aug-2021 08:24:17 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[20-Aug-2021 18:03:18 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[25-Aug-2021 19:00:12 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[28-Aug-2021 15:49:25 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[30-Aug-2021 18:45:44 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[01-Sep-2021 23:31:17 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[02-Sep-2021 08:49:55 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[05-Sep-2021 19:06:48 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[06-Sep-2021 16:14:31 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[12-Sep-2021 04:40:13 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[15-Sep-2021 08:14:18 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[19-Sep-2021 16:50:31 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[20-Sep-2021 00:11:45 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[22-Sep-2021 14:55:03 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[02-Oct-2021 22:02:52 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[04-Oct-2021 08:24:32 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[05-Oct-2021 02:32:34 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[10-Oct-2021 00:49:00 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[12-Oct-2021 14:59:06 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[14-Oct-2021 19:35:24 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[30-Oct-2021 21:30:21 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[01-Nov-2021 08:35:52 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
+[03-Nov-2021 12:57:11 America/New_York] PHP Notice:  Undefined index: Email in /home/z1ti59yycbai/projects.zachcarroll.me/todo/AddNewItem/index.php on line 26
